@@ -1,0 +1,19 @@
+/* menu */
+.menu {
+    display: flex;
+}
+.menu > div .options {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.menu > div .options button {
+    z-index: 1;
+}
+
+/* textbox */
+textarea {
+    height: 80vh;
+    width: 80vw;
+}
